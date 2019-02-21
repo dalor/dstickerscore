@@ -4,6 +4,7 @@ import requests
 from sticker_core import Dtelsticker
 from PIL import Image
 from io import BytesIO
+import os
 import re
 
 BOT_ID = os.environ['BOT_ID']
